@@ -1,8 +1,9 @@
 import React from "react";
+import './ButtonNav.css'
 
 const Button = ({label, onClick}) => {
     return(
-        <button onClick={onClick}>
+        <button className="buttonStyle" onClick={onClick}>
             {label}
         </button>
     );
